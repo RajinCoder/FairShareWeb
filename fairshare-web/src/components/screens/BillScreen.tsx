@@ -7,7 +7,7 @@ import { BillItem } from "@/types";
 import NextScreenBtn from "@/components/NextScreenBtn";
 
 export default function BillScreen() {
-  const { state, dispatch } = useApp();
+  const { dispatch } = useApp();
   const [foodName, setFoodName] = useState("");
   const [price, setPrice] = useState("");
   const [tipPercent, setTipPercent] = useState("");

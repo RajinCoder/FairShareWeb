@@ -7,7 +7,7 @@ import { Person } from "@/types";
 import NextScreenBtn from "@/components/NextScreenBtn";
 
 export default function FormScreen() {
-  const { state, dispatch } = useApp();
+  const { dispatch } = useApp();
   const [numberOfPeople, setNumberOfPeople] = useState<number>(0);
   const [peopleNames, setPeopleNames] = useState<string[]>([]);
 

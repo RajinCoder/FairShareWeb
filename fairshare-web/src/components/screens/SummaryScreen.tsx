@@ -94,7 +94,7 @@ export default function SummaryScreen() {
               Calculating your Fair Share
             </h2>
             <p className="text-base sm:text-lg text-gray-700 italic text-center">
-              "Never pay more than your fair share again"
+              &ldquo;Never pay more than your fair share again&rdquo;
             </p>
           </motion.div>
         ) : (
